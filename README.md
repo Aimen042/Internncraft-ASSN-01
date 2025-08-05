@@ -2,6 +2,7 @@
 
 This project is a static frontend e-commerce website built using HTML, CSS, and JavaScript, designed for a stationery shop. The goal is to provide users with a clean and interactive interface to explore and purchase stationery items like notebooks, sticky notes, keychains, and more.
 
+---
 📁 FILE STRUCTURE OVERVIEW:
 
 index.html	Home page of the website with a brief intro, navigation, and featured sections.
@@ -22,7 +23,7 @@ stickyNotes.html	A product-specific page for sticky notes.
 
 style.css	Contains custom styles for layout, typography, and responsiveness.
 
-
+---
 💡 FEATURES:
 
 🧭 Intuitive navigation between pages
@@ -37,7 +38,7 @@ style.css	Contains custom styles for layout, typography, and responsiveness.
 
 🖱️ Smooth scrolling and limited animations/transitions
 
-
+---
 ⚙️ TECHNOLOGIES USED:
 
 
@@ -47,7 +48,7 @@ CSS3 – Styling and layout (custom responsive design)
 
 JavaScript (Vanilla) – Basic interactivity
 
-
+---
 📝 NOTES:
 
 
