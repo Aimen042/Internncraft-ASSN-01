@@ -5,15 +5,23 @@ This project is a static frontend e-commerce website built using HTML, CSS, and 
 📁 FILE STRUCTURE OVERVIEW:
 
 index.html	Home page of the website with a brief intro, navigation, and featured sections.
+
 aboutUs.html	Contains information about the stationery shop, mission, and background.
+
 contactUs.html	Provides a contact form and shop contact details for customer support.
+
 cart.html	Displays the items added to the cart by the user (cart UI only, no backend functionality).
+
 keychains.html	A product listing page showcasing available keychains.
+
 notebooks.html	A product page featuring various notebook items.
+
 stationary.html	General listing of all stationery products.
+
 stickyNotes.html	A product-specific page for sticky notes.
+
 style.css	Contains custom styles for layout, typography, and responsiveness.
-script.js	Adds interactivity, including UI behavior like navigation toggling, cart functions, etc.
+
 
 💡 FEATURES:
 
