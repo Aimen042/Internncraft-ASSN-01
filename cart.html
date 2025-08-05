@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-commerce Website</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--NAV-BAR-->
+    <nav id="navtexting" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><b><i>--ShopIt--</i></b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!--HOME PAGE-->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <!--ABOUT US PAGE-->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="aboutUs.html">About Us</a>
+                    </li>
+                    <!--PRODUCTS LIST-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" style="width: 25%;">
+                            <li class="listing"><a class="dropdown-item" href="notebooks.html">Note Books</a></li>
+                            <li class="listing"><a class="dropdown-item" href="keychains.html">Key Chains</a></li>
+                            <li class="listing"><a class="dropdown-item" href="bracelets.html">Bracelets</a></li>
+                            <li class="listing"><a class="dropdown-item" href="stationary.html">Stationary</a></li>
+                            <li class="listing"><a class="dropdown-item" href="stickyNotes.html">Sticky-Notes</a></li>
+                        </ul>
+                    </li>
+                    <!--CONTACT US-->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="submit" style="border: 1px solid #003366;">Search</button>
+                </form>
+                <div class="cart">
+                    <a href="cart.html">
+                        <img class="logo" src="css/Images/cart/shopping-cart.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--CART-->
+    <section id="cart">
+        <h5>PAYMENT SUMMARY</h5>
+        <div class="checkout">
+            <table style="width: 100%; margin-right: 3%;">
+                <thead>
+                    <tr>
+                        <strong>
+                            <td>PRODUCT</td>
+                            <td>DETAILS</td>
+                            <td>REMOVE</td>
+                            <td>QUANTITY</td>
+                            <td style="margin-right: 2%;">PRICE</td>
+                        </strong>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="margin-left: 2%;">
+                        <td style="padding-top: 2%;"><img src="css/Images/Books/bk1.png" style="width: 24%;"></td>
+                        <td style="padding-top: 2%;">Note Book</td>
+                        <td style="padding-top: 2%;"><img src="css/Images/cart/bin.png" style="width: 6%;"></td>
+                        <td style="padding-top: 2%;"><input type="number" value="1"
+                                style="width: 45%; text-align: center;"></td>
+                        <td style="padding-top: 2%;">1200</td>
+                    </tr>
+                    <tr style="margin-left: 2%;">
+                        <td style="padding-top: 2%;"><img src="css/Images/Stationary/st2.png" style="width: 24%;"></td>
+                        <td style="padding-top: 2%;">Markers</td>
+                        <td style="padding-top: 2%;"><img src="css/Images/cart/bin.png" style="width: 6%;"></td>
+                        <td style="padding-top: 2%;"><input type="number" value="1"
+                                style="width: 45%; text-align: center;"></td>
+                        <td style="padding-top: 2%;">1200</td>
+                    </tr>
+                    <tr style="margin-left: 2%;">
+                        <td style="padding-top: 2%;"><img src="css/Images/Keychains/kc1.jpg" style="width: 24%;"></td>
+                        <td style="padding-top: 2%;">Key Chain</td>
+                        <td style="padding-top: 2%;"><img src="css/Images/cart/bin.png" style="width: 6%;"></td>
+                        <td style="padding-top: 2%;"><input type="number" value="1"
+                                style="width: 45%; text-align: center;"></td>
+                        <td style="padding-top: 2%;">1200</td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+
+    </section>
+
+    <!--BILL-->
+    <section id="pay">
+        <h5>PAYMENT CHECKOUT</h5>
+        <div id="bill">
+            <p><span><b>Total Products:</b></span> x3</p>
+            <p><span><b>Total Quantity:</b></span> 3600</p>
+            <p><span style="padding-right: 8%;"><b>Discount Coupon:</b></span> Not Available</p>
+            <button>PROCEED TO PAY</button>
+        </div>
+    </section>
+
+    <!--End Of Website-->
+    <footer id="ending" style="padding-top: 3%;">
+        <div id="textbox">
+            <!--ABOUT US-->
+            <div class="div1">
+                <h4>ABOUT SHOP</h4>
+                <p>We provide a wide array of stationery, art, and school supplies, along with gift and packaging
+                    products. Our
+                    meticulously curated inventory ensures top quality and value for all your business and personal
+                    needs.</p>
+            </div>
+
+            <!--MAIN MENU-->
+            <div class="div1">
+                <h4>MAIN MENU</h4>
+                <a style="padding-bottom: 22px; padding-top: 2px;" href="index.html">Home Page</a>
+                <a style="padding-bottom: 22px;" href="aboutUs.html">About Us</a>
+                <a href="contactUs.html">Contact Us</a>
+            </div>
+
+            <!--CONTACT US-->
+            <div class="div1">
+                <h4>CONTACT US</h4>
+                <p><strong>Location-</strong> Street 17, North Nazimabad, Karachi</p>
+                <p><strong>E-mail Address-</strong>shopit@gmail.com</p>
+                <p><strong>Phone#-</strong>0312-355465656</p>
+            </div>
+
+            <!--Social Media Links-->
+            <div class="div1">
+                <h4>FOLLOW US</h4>
+                <!--Instagram-->
+                <div class="icons">
+                    <img src="css/Images/Icons/insta (1).png">
+                    <p>Instagram</p>
+                </div>
+                <!--Facebook-->
+                <div class="icons">
+                    <img src="css/Images/Icons/Facebook.jpeg">
+                    <p>Facebook</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+</script>
+
+<script src="/script.js">
+
+</script>
+</body>
+
+</html>

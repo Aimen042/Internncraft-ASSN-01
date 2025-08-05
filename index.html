@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-commerce Website</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!--NAV-BAR-->
+  <nav id="navtexting" class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><b><i>--ShopIt--</i></b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!--HOME PAGE-->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <!--ABOUT US PAGE-->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="aboutUs.html">About Us</a>
+          </li>
+          <!--PRODUCTS LIST-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" style="width: 25%;">
+              <li class="listing"><a class="dropdown-item" href="notebooks.html">Note Books</a></li>
+              <li class="listing"><a class="dropdown-item" href="keychains.html">Key Chains</a></li>
+              <li class="listing"><a class="dropdown-item" href="bracelets.html">Bracelets</a></li>
+              <li class="listing"><a class="dropdown-item" href="stationary.html">Stationary</a></li>
+              <li class="listing"><a class="dropdown-item" href="stickyNotes.html">Sticky-Notes</a></li>
+            </ul>
+          </li>
+          <!--CONTACT US-->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contactUs.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn" type="submit" style="border: 1px solid #003366;">Search</button>
+        </form>
+        <div class="cart">
+          <a href="cart.html">
+            <img class="logo" src="css/Images/cart/shopping-cart.png">
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--SALES BANNER-->
+  <section id="banner">
+    <h4>Special Summer Sale Alert</h4>
+    <h2>Unwrap The Joy Of Giving With Our</h2>
+    <h2>Elegant Stationery Gift Boxes</h2>
+    <h5>Discount Upto 30% off</h5>
+    <button>BUY NOW</button>
+  </section>
+
+  <!--PRODUCTS AVAILABLE-->
+  <section id="products">
+    <h6>OUR PRODUCTS</h6>
+    <div id="Grid">
+      <!--Note Books-->
+      <div class="card"
+        style="width: 18rem; box-shadow: 20px 20px 30px rgba(0.06, 0.06 , 0.06, 0.06); border-radius: none; border: 0.5px solid #c8ddf2;">
+        <img src="css/Images/Products/notebook.png" class="productImage" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Note Books</h5>
+          <a href="notebooks.html" class="btn">View All</a>
+        </div>
+      </div>
+      <!--Key Chains-->
+      <div class="card"
+        style="width: 18rem; box-shadow: 20px 20px 30px rgba(0.06, 0.06 , 0.06, 0.06); border-radius: none; border: 0.5px solid #c8ddf2;">
+        <img src="css/Images/Products/keys.png" class="productImage" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Key Chains</h5>
+          <a href="keychains.html" class="btn">View All</a>
+        </div>
+      </div>
+      <!--Bracelets-->
+      <div class="card"
+        style="width: 18rem; box-shadow: 20px 20px 30px rgba(0.06, 0.06 , 0.06, 0.06); border-radius: none; border: 0.5px solid #c8ddf2;">
+        <img src="css/Images/Products/bracelet.png" class="productImage" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bracelets</h5>
+          <a href="bracelets.html" class="btn">View All</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="moreProducts">
+    <div id="Grid">
+      <!--Note Books-->
+      <div class="card"
+        style="width: 18rem; box-shadow: 20px 20px 30px rgba(0.06, 0.06 , 0.06, 0.06); border-radius: none; border: 0.5px solid #c8ddf2;">
+        <img src="css/Images/Products/stationary.png" class="productImage" class="card-img-top"
+          alt="Picture of Stationery">
+        <div class="card-body">
+          <h5 class="card-title">Stationery</h5>
+          <a href="stationary.html" class="btn">View All</a>
+        </div>
+      </div>
+      <!--Key Chains-->
+      <div class="card"
+        style="width: 18rem; box-shadow: 20px 20px 30px rgba(0.06, 0.06 , 0.06, 0.06); border-radius: none; border: 0.5px solid #c8ddf2;">
+        <img src="css/Images/Products/sticky-note.png" class="productImage" class="card-img-top"
+          alt="Picture of Sticky Note">
+        <div class="card-body">
+          <h5 class="card-title">Sticky Notes</h5>
+          <a href="stickyNotes.html" class="btn">View All</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--ABOUT WEBSITE-->
+  <section id="siteInfo">
+    <h6>WHY US ?</h6>
+
+    <p>ShopIt is a premier online store for stationery items, offering an unparalleled shopping experience for
+      stationery enthusiasts! Our commitment to excellence permeates every aspect of our store, making it easy for you
+      to explore and purchase top-quality stationery essentials. Discover stylish notebooks, contemporary pens, and
+      sticky notes that seamlessly blend functionality with elegance, enhancing your workspace. Whether you're a
+      professional seeking innovative tools or a student unleashing your creativity, ShopIt has something for everyone.
+      It's where style meets practicality, and every purchase reflects your dedication to quality.</p>
+
+    <h6>CURATED SELECTIONS OF ARTS AND SCHOOL SUPPLIES ONLINE</h6>
+
+    <p>We take pride in offering an exceptional range of arts and school supplies, along with a gift collection
+      that leaves a lasting impression. Our user-friendly website allows you to effortlessly browse and place orders,
+      ensuring your favorite stationery items are just a click away. Our online store caters to the diverse needs of
+      every customer, whether you're a professional seeking innovative tools or a student exploring creativity. Enhance
+      your workspace with our fantastic collection, transforming it into a positive environment. Our offerings reflect
+      your commitment to quality, providing an experience that stands out. Discover the finest in high-end stationery by
+      exploring, shopping, and immersing yourself in our world.</p>
+
+  </section>
+
+  <!--UPDATES SIGN UP-->
+  <section id="newsletter">
+    <div class="text">
+      <h4>SIGN UP FOR NEWS LETTER</h4>
+      <P>Get E-mail updates about our new arrivals and <span><b>special offers</b></span></P>
+    </div>
+
+    <div class="Form">
+      <input type="text" placeholder="E-mail Address">
+      <button class="signup">SIGN UP</button>
+    </div>
+  </section>
+
+  <!--CUSTOMER REVIEW-->
+  <section id="review">
+    <h6>CUSTOMER REVIEWS</h6>
+    <div id="reviews">
+      <!--REVIEW 1-->
+      <div class="divImage1" class="card" style="width: 10rem;">
+        <img src="css/Images/Customer/user2.png" class="img1" class="card-img-top" alt="...">
+      </div>
+
+      <div class="divContent1" class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" style="padding-left: 17px; color: #003366 ;"><b>Customer 1</b></h5>
+          <p class="card-text" style="padding-left: 17px;">"ShopIt offers top-quality stationery with exceptional
+            service—my go-to store for all my needs!"</p>
+        </div>
+      </div>
+
+      <!--REVIEW 2-->
+      <div class="divImage2" class="card" style="width: 10rem;">
+        <img src="css/Images/Customer/user2.png" class="img1" class="card-img-top" alt="...">
+      </div>
+
+
+      <div class="divContent2" class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" style="padding-left: 17px; color: #003366;"><b>Customer 2</b></h5>
+          <p class="card-text" style="padding-left: 17px;">"Impressive selection and unbeatable quality; ShopIt has
+            transformed my workspace!"</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="reviews">
+      <!--REVIEW 3-->
+      <div class="divImage1" class="card" style="width: 10rem;">
+        <img src="css/Images/Customer/user2.png" class="img1" class="card-img-top" alt="...">
+      </div>
+
+      <div class="divContent1" class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" style="padding-left: 17px; color: #003366 ;"><b>Customer 3</b></h5>
+          <p class="card-text" style="padding-left: 17px;">"Incredible products and a seamless shopping experience every
+            time!"</p>
+        </div>
+      </div>
+
+      <!--REVIEW 4-->
+      <div class="divImage2" class="card" style="width: 10rem;">
+        <img src="css/Images/Customer/user2.png" class="img1" class="card-img-top" alt="...">
+      </div>
+
+
+      <div class="divContent2" class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" style="padding-left: 17px; color: #003366;"><b>Customer 4</b></h5>
+          <p class="card-text" style="padding-left: 17px;">"Superb service and excellent stationery items—I love
+            shopping here!"</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--End Of Website-->
+  <footer id="ending" style="padding-top: 3%;">
+    <div id="textbox">
+      <!--ABOUT US-->
+      <div class="div1">
+        <h4>ABOUT SHOP</h4>
+        <p>We provide a wide array of stationery, art, and school supplies, along with gift and packaging products. Our
+          meticulously curated inventory ensures top quality and value for all your business and personal needs.</p>
+      </div>
+
+      <!--MAIN MENU-->
+      <div class="div1">
+        <h4>MAIN MENU</h4>
+        <a style="padding-bottom: 22px; padding-top: 2px;" href="index.html">Home Page</a>
+        <a style="padding-bottom: 22px;" href="aboutUs.html">About Us</a>
+        <a href="contactUs.html">Contact Us</a>
+      </div>
+
+      <!--CONTACT US-->
+      <div class="div1">
+        <h4>CONTACT US</h4>
+        <p><strong>Location-</strong> Street 17, North Nazimabad, Karachi</p>
+        <p><strong>E-mail Address-</strong>shopit@gmail.com</p>
+        <p><strong>Phone#-</strong>0312-355465656</p>
+      </div>
+
+      <!--Social Media Links-->
+      <div class="div1">
+        <h4>FOLLOW US</h4>
+        <!--Instagram-->
+        <div class="icons">
+          <img src="css/Images/Icons/insta (1).png">
+          <p>Instagram</p>
+        </div>
+        <!--Facebook-->
+        <div class="icons">
+          <img src="css/Images/Icons/Facebook.jpeg">
+          <p>Facebook</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+ <script src="/script.js"> 
+ 
+ </script>
+</body>
+
+</html>
